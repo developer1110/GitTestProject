@@ -4,19 +4,19 @@ public class CarVn implements GameVn{
 
 	@Override
 	public void Start() {
-		// TODO Auto-generated method stub
+		System.out.println("You are about to play Car Game");
 		
 	}
 
 	@Override
 	public void Play() {
-		// TODO Auto-generated method stub
+		System.out.println("You are playing Car Game");
 		
 	}
 
 	@Override
 	public void Stop() {
-		// TODO Auto-generated method stub
+		System.out.println("Thank you for playing Car Game");
 		
 	}
 
