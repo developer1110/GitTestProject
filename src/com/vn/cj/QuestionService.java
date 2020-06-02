@@ -1,16 +1,18 @@
 package com.vn.cj;
 
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class QuestionService {
-	public ArrayList<Question> questions = new ArrayList<>();
+	privateSystem.out.println(str.substring(i, j) + " Added"); ArrayList<Question> questions = new ArrayList<>();
 	private Scanner sc;
 
 	// static block to open file and load questions
 	{
 		try {
+			
 			sc = new Scanner(Paths.get("data\\quiz.txt"));
 		} catch (Exception e) {
 			e.printStackTrace();

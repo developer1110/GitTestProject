@@ -1,35 +1,35 @@
 #1
 What is super class for every class in java?
-String
-Object
-Math
-System
+1.String
+2.Object
+3.Math
+4.System
 Ans:2
 #2
 Which of the following is not a java.lang.String class method?
-trim
-length
-reverse
-split
+1.trim
+2.length
+3.reverse
+4. split
 Ans:3
 #3
 What is the output of 10 >>  1?
-10
-5
-20
-1
+1.10
+2.5
+3.20
+4.1
 Ans:2
 #4
 Which of following is not true about Java?
-Platform Independent
-Uses Byte code
-When compile generates.exe file
-Java has interfaces
+1.Platform Independent
+2.Uses Byte code
+3.When compile generates.exe file
+4.Java has interfaces
 Ans:3
 #5
 Which of the following is not a valid data types in Java?
-int
-byte
+1.int
+2.byte
 short
 array
 Ans:4
