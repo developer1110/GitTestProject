@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class QuestionService {
-	privateSystem.out.println(str.substring(i, j) + " Added"); ArrayList<Question> questions = new ArrayList<>();
+	ArrayList<Question> questions = new ArrayList<>();
 	private Scanner sc;
 
 	// static block to open file and load questions
