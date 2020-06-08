@@ -28,5 +28,13 @@ public class ReadJsonFiles {
 		boolean result = stmt.execute("Insert into dept (deptno, dname, loc) Values ( 10, 'Accounting', 'New York' )");
 		con.close();
 		System.out.println("Result = " + result);
+		
+		//now let's use generic version to load employee
+		JsonManager jm = new JsonManager();
+		Employee[] empList;
+		empList = 	jm.LoadGenericJson(Employee[].class, "data/employee.json");
+		for (Employee employee : empList) {
+			System.out.println(employee.toString());
+		}
 	}
 }
