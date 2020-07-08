@@ -18,7 +18,7 @@ public class JsonManager {
 	{
 		this.om = new ObjectMapper();
 	}
-	
+	 
 	public <T> T LoadGenericJson(Class<T> obj, String filename) throws FileNotFoundException {
 		File fs = new File(filename);
 		try {
